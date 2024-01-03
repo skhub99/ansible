@@ -1,0 +1,20 @@
+- name: Play 1 and Play 2 
+  hosts: localhost
+  tasks:
+  - name: play 1
+    ansible.builtin.debug:
+    msg: "Hey How are you! I am Learning DevOps"
+  - name: play 2
+    ansible.builtin.debug:
+    msg: "Hey How are you! This is the adv DevOps Course!"
+    
+- name: Task 1 and Task 2
+  hosts: localhost
+  tasks:
+    - name: task 1
+      ansible.builtin.debug:
+      msg: "Hey Task 1 on board"
+    -name: task 2
+      ansible.builtin.debug:
+      msg: "Hey Task 2 on board"
+    
