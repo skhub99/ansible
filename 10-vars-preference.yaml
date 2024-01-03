@@ -14,6 +14,7 @@
   WISHES: "GM from Play"
   tasks:
   - name: check variables
+    vars:
       PERSON: "SK from Tasks"
       WISHES: "GM from Tasks"
     ansible.builtin.debug:
