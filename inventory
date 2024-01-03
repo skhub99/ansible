@@ -1,5 +1,12 @@
 456
 45632
+[localhost]
+localhost
+
+[localhost:vars]
+course: "DevOps from Inventory"
+trainer: "SKR"
+duration: "110hrs"
 
 [web]
 34.201.221.7
