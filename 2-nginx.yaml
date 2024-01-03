@@ -2,10 +2,10 @@
   hosts: web
   tasks: 
   - name: install and run nginx
-      ansible.builtin.package:
+    ansible.builtin.package:
       name: nginx
       state: present
   - name: run nginx
-      ansible.builtin.service:
+    ansible.builtin.service:
       name: nginx
       state: started
