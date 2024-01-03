@@ -9,6 +9,9 @@ course= "DevOps from Inventory"
 trainer= "SKR"
 duration= "110hrs"
 
+PERSON= "SK from Inv"
+WISHES= "GM from Inv"
+
 [web]
 34.201.221.7
 172.31.41.187
