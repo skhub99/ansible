@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
   - name: Install and Print the Packgs
-    ansible.builtin.packages:
+    ansible.builtin.package:
       PackageName: "{{item}}"
       state: present
     loop:
